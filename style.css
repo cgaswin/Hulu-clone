@@ -1,0 +1,169 @@
+:root {
+  --primary-color: #00c26b;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0)),
+    url(./assets/images/herobg.jpeg);
+  background-size: cover;
+  background-position: -150px;
+}
+
+/*navbar*/
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+nav img {
+  height: auto;
+  width: 80px;
+}
+
+nav button {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  color: rgb(223, 213, 213);
+  font-weight: bold;
+  font-size: 16px;
+  margin-right: 20px;
+  padding: 10px 15px;
+  border-radius: 10px;
+}
+
+nav button:hover {
+  color: white;
+  background-color: #323843;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/*Hero*/
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  margin-top: -30px;
+}
+
+.hero-preheadline p {
+  color: var(--primary-color);
+  margin: 20px;
+  font-weight: bolder;
+  font-size: 12px;
+}
+
+.hero-headline {
+  color: #ffffff;
+  margin-top: 20px;
+  font-size: larger;
+  font-weight: 800;
+}
+
+.hero-headline p {
+  white-space: pre;
+  text-align: center;
+  font-size: 20px;
+}
+
+#hero-img {
+  width: 600px;
+}
+
+.hero-button {
+  background-color: #00c26b;
+  width: 50%;
+  padding: 15px;
+  border: none;
+  border-radius: 3px;
+  margin: 20px;
+  font-weight: bolder;
+}
+
+#hero-link {
+  color: grey;
+  text-decoration: none;
+  font-size: 10px;
+}
+
+#hero-link a {
+  color: rgb(197, 197, 197);
+}
+
+#hero-signup {
+  color: white;
+  margin: 5px;
+}
+
+/*Library*/
+
+#library-container {
+  height: 100vh;
+  width: 100vw;
+  background-color: #0b0c0f;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#lib-preheader {
+  color: var(--primary-color);
+  font-size: 15px;
+  margin: 10px;
+}
+
+#lib-header {
+  color: white;
+  font-weight: 900;
+  font-size: 50px;
+  margin: 10px;
+}
+
+#lib-postheader {
+  color: white;
+  margin: 10px;
+  white-space: pre;
+  text-align: center;
+}
+
+#lib-img-container {
+  display: flex;
+  margin: 10px;
+}
+
+.lib-img {
+  position: relative;
+}
+
+.lib-img img {
+  width: 300px;
+  height: 450px;
+  margin: 10px;
+  filter: brightness(70%);
+}
+
+.lib-img-preheading {
+  color: white;
+  position: absolute;
+  top: 25px;
+  left: 30px;
+}
+.lib-img-heading {
+  color: white;
+  position: absolute;
+  top: 55px;
+  left: 30px;
+}
