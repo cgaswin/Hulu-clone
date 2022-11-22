@@ -299,3 +299,76 @@ white-space: pre;
   width: 30px;
   height: 30px;
 }
+
+/*Pricing*/
+
+
+
+/*Footer*/
+
+#footer-container{
+  height: 70vh;
+  width: 100vw;
+  background-color: #E8EAED;
+}
+
+#footer-top-section{
+  border:none;
+  padding: 25px 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.section-link{
+  color:#5C6577;
+  margin: 10px;
+  font-size: 13px;
+  white-space: pre;
+}
+
+.footer-active{
+  color:black;
+  font-weight: 550px;
+}
+
+#section-1,#section-2,#section-3,#section-4,#section-5,#section-6{
+   margin-right:20px;
+}
+
+#section-2,#section-3,#section-4{
+  margin-top: 26px;
+}
+
+#footer-line{
+  margin-left: 110px;
+  width: 1150px;
+  color: rgb(230, 230, 230);
+}
+
+#footer-social{
+  padding-left: 115px; 
+  margin-top: 40px;
+}
+#footer-social img{
+  margin-right: 30px;
+}
+
+#footer-links{
+  display: flex;
+  margin-left: 110px;
+  margin-top: 30px;
+}
+
+#footer-links p{
+  margin-right: 30px;
+  font-size: 12px;
+  color:#5C6577;
+}
+
+#sitemap{
+  margin-left: 110px;
+ margin-right: 20px;
+  font-size: 12px;
+  color:#5C6577;
+  margin-top: 10px;
+}
