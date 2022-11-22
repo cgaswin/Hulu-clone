@@ -92,6 +92,11 @@ nav button:hover {
   font-weight: bolder;
 }
 
+.hero-button:hover{
+  opacity: 0.4;
+  color: #040405;
+}
+
 #hero-link {
   color: grey;
   text-decoration: none;
@@ -166,4 +171,131 @@ nav button:hover {
   position: absolute;
   top: 55px;
   left: 30px;
+}
+
+/*Billboard*/
+#billboard-container{
+  height: 100vh;
+  width: 100vw;
+  background-color: #0b0c0f;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 200px;
+}
+
+#billboard-preheadline{
+ color: var(--primary-color);
+ margin: 10px;
+}
+
+#billboard-headline{
+  color: white;
+  margin: 10px;
+  font-size: 40px;
+  font-weight: 900;
+}
+
+#billboard-subheadline{
+  color: white;
+ margin: 10px;
+ text-align: center;
+white-space: pre;
+  
+}
+
+#billboard-link a{
+ margin: 10px;
+  color: whitesmoke;
+}
+
+#down-arrow{
+  margin: 50px;
+}
+
+/*Spotlight*/
+
+#spotlight-container{
+  height: 100vh;
+  width: 100vw;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0)),
+    url(./assets/images/livesportsbg.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 40px;
+}
+
+#tab-button-container{
+  display: flex;
+  background-color: transparent;
+  border: none;
+  padding-left: 100px;
+}
+
+.tab-button{
+  color: #9c9c9c;
+  background-color: transparent;
+  margin: 10px;
+  border: none;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.active{
+  color: white;
+  border-bottom: 5px solid white;
+}
+
+
+.spot-main{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+#spot-headline{
+  color: white;
+  font-size: 60px;
+  padding-left: 105px;
+}
+
+#spot-subheadline{
+ white-space: pre;
+ color: white;
+ padding-left: 55px;
+}
+
+#spot-discalimer{
+  color: #BEC0C2;
+  font-size: 10px;
+  padding-left: 105px;
+}
+
+#spot-discalimer a{
+  color: #BEC0C2;
+  font-size: 10px;
+} 
+#spot-img{
+  display: flex;
+  padding-left: 90px;
+}
+
+.spot-img-1{
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height:50px;
+  margin: 10px;
+}
+
+.spot-logo{
+  width: 30px;
+  height: 30px;
 }
