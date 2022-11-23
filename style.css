@@ -301,7 +301,131 @@ white-space: pre;
 }
 
 /*Pricing*/
+#plan-container{
+  background: #0B0C0F;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
 
+#plan-heading{
+  color: white;
+  font-size: 50px;
+}
+
+#plan-subheading{
+  color: white;
+  margin: 10px;
+}
+
+#plan-subheading span{
+  color: white;
+  display: block;
+  text-align: center;
+  font-weight: 600;
+  margin-top: 5px;
+}
+
+#pricing-container{
+  margin-top: 20px;
+}
+
+#pricing-headings{
+  display: flex;
+  border-top: 1px solid white ;
+  outline: none;
+}
+
+#pricing-heading1{
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  padding: 10px;
+}
+
+#pricing-heading1-subsection1,#pricing-heading1-subsection2,#pricing-heading1-subsection3{
+  margin: 10px;
+}
+
+#pricing-heading1-subsection1 p{
+  color: white;
+}
+#pricing-heading1-subsection1 img{
+  margin-top:20px;
+ margin-left: 30px;
+}
+
+#pricing-heading1-subsection3 p{
+  color: white;
+}
+
+#pricing-heading1-subsection3 img{
+ width: 150px;
+}
+
+#pricing-heading2 p{
+  color:white;
+  margin-bottom: 15px;
+}
+
+#pricing-heading2{
+  padding: 10px;
+  margin-top: 15px;
+}
+#pricing-heading3{
+  padding: 10px;
+  margin-top: 15px;
+  background-color: #272C34;
+}
+
+
+#pricing-heading2 button{
+  background-color: #FFFFFF;
+  font-weight: 700;
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+  width: 200px;
+  height: 50px;
+  margin-top: 15px;
+}
+
+#pricing-heading3 button{
+  background-color: #FFFFFF;
+  font-weight: 700;
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+  width: 200px;
+  height: 50px;
+  margin-top: 15px;
+}
+
+#pricing-heading3 p{
+  color:white;
+  margin-bottom: 15px;
+}
+
+
+#checkbox-container{
+  width: 60px;
+  height: 30px;
+  background-color:#424957;
+  border-radius: 20px;
+}
+
+#checkbox-circle{
+  width:35px;
+  border-radius: 50%;
+  height: 30px;
+  background-color: #FFFFFF;
+}
+
+#black-friday{
+  background-color: var(--primary-color);
+}
 
 
 /*Footer*/
