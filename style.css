@@ -92,7 +92,7 @@ nav button:hover {
   font-weight: bolder;
 }
 
-.hero-button:hover{
+.hero-button:hover {
   opacity: 0.4;
   color: #040405;
 }
@@ -174,49 +174,48 @@ nav button:hover {
 }
 
 /*Billboard*/
-#billboard-container{
+#billboard-container {
   height: 100vh;
   width: 100vw;
   background-color: #0b0c0f;
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   padding-top: 200px;
 }
 
-#billboard-preheadline{
- color: var(--primary-color);
- margin: 10px;
+#billboard-preheadline {
+  color: var(--primary-color);
+  margin: 10px;
 }
 
-#billboard-headline{
+#billboard-headline {
   color: white;
   margin: 10px;
   font-size: 40px;
   font-weight: 900;
 }
 
-#billboard-subheadline{
+#billboard-subheadline {
   color: white;
- margin: 10px;
- text-align: center;
-white-space: pre;
-  
+  margin: 10px;
+  text-align: center;
+  white-space: pre;
 }
 
-#billboard-link a{
- margin: 10px;
+#billboard-link a {
+  margin: 10px;
   color: whitesmoke;
 }
 
-#down-arrow{
+#down-arrow {
   margin: 50px;
 }
 
 /*Spotlight*/
 
-#spotlight-container{
+#spotlight-container {
   height: 100vh;
   width: 100vw;
   background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0)),
@@ -229,14 +228,14 @@ white-space: pre;
   padding-left: 40px;
 }
 
-#tab-button-container{
+#tab-button-container {
   display: flex;
   background-color: transparent;
   border: none;
   padding-left: 100px;
 }
 
-.tab-button{
+.tab-button {
   color: #9c9c9c;
   background-color: transparent;
   margin: 10px;
@@ -245,64 +244,62 @@ white-space: pre;
   padding-bottom: 10px;
 }
 
-.active{
+.active {
   color: white;
   border-bottom: 5px solid white;
 }
 
-
-.spot-main{
+.spot-main {
   display: flex;
   flex-direction: column;
-  
 }
 
-#spot-headline{
+#spot-headline {
   color: white;
   font-size: 60px;
   padding-left: 105px;
 }
 
-#spot-subheadline{
- white-space: pre;
- color: white;
- padding-left: 55px;
+#spot-subheadline {
+  white-space: pre;
+  color: white;
+  padding-left: 55px;
 }
 
-#spot-discalimer{
-  color: #BEC0C2;
+#spot-discalimer {
+  color: #bec0c2;
   font-size: 10px;
   padding-left: 105px;
 }
 
-#spot-discalimer a{
-  color: #BEC0C2;
+#spot-discalimer a {
+  color: #bec0c2;
   font-size: 10px;
-} 
-#spot-img{
+}
+#spot-img {
   display: flex;
   padding-left: 90px;
 }
 
-.spot-img-1{
+.spot-img-1 {
   background-color: white;
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 50px;
-  height:50px;
+  height: 50px;
   margin: 10px;
 }
 
-.spot-logo{
+.spot-logo {
   width: 30px;
   height: 30px;
 }
 
 /*Pricing*/
-#plan-container{
-  background: #0B0C0F;
+#plan-container {
+  background: #0b0c0f;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -310,17 +307,17 @@ white-space: pre;
   padding: 50px;
 }
 
-#plan-heading{
+#plan-heading {
   color: white;
   font-size: 50px;
 }
 
-#plan-subheading{
+#plan-subheading {
   color: white;
   margin: 10px;
 }
 
-#plan-subheading span{
+#plan-subheading span {
   color: white;
   display: block;
   text-align: center;
@@ -328,171 +325,228 @@ white-space: pre;
   margin-top: 5px;
 }
 
-#pricing-container{
+#pricing-container {
   margin-top: 20px;
 }
 
-#pricing-headings{
+#pricing-headings {
   display: flex;
-  border-top: 1px solid white ;
+  border-top: 1px solid white;
   outline: none;
+  padding-bottom: 30px;
+  border-bottom: 1px solid white;
 }
 
-#pricing-heading1{
+#pricing-heading1 {
   display: flex;
   flex-direction: row;
   margin: 10px;
   padding: 10px;
+  margin-top: 55px;
 }
 
-#pricing-heading1-subsection1,#pricing-heading1-subsection2,#pricing-heading1-subsection3{
+#pricing-heading1-subsection1,
+#pricing-heading1-subsection2,
+#pricing-heading1-subsection3 {
   margin: 10px;
 }
 
-#pricing-heading1-subsection1 p{
+#pricing-heading1-subsection1 p {
   color: white;
 }
-#pricing-heading1-subsection1 img{
-  margin-top:20px;
- margin-left: 30px;
+#pricing-heading1-subsection1 img {
+  margin-top: 20px;
+  margin-left: 30px;
 }
 
-#pricing-heading1-subsection3 p{
+#pricing-heading1-subsection3 p {
   color: white;
 }
 
-#pricing-heading1-subsection3 img{
- width: 150px;
+#pricing-heading1-subsection3 img {
+  width: 150px;
 }
 
-#pricing-heading2 p{
-  color:white;
+#ads-hulu {
+  color: white;
   margin-bottom: 15px;
+  margin-left: 35px;
+  margin-top: 8px;
+  font-weight: 800;
 }
-
-#pricing-heading2{
+#limited-deal {
+  margin-left: 30px;
+}
+#pricing-heading2 {
   padding: 10px;
   margin-top: 15px;
 }
-#pricing-heading3{
+#pricing-heading3 {
   padding: 10px;
   margin-top: 15px;
-  background-color: #272C34;
+  background-color: #272c34;
+  padding-top: 50px;
 }
 
-
-#pricing-heading2 button{
-  background-color: #FFFFFF;
+#button-plan {
+  background-color: #ffffff;
   font-weight: 700;
   border-radius: 5px;
   border: none;
   padding: 10px;
-  width: 200px;
+  width: 250px;
   height: 50px;
-  margin-top: 15px;
+  margin-top: 11px;
 }
 
-#pricing-heading3 button{
-  background-color: #FFFFFF;
+#pricing-heading3 button {
+  background-color: #ffffff;
   font-weight: 700;
   border-radius: 5px;
   border: none;
   padding: 10px;
-  width: 200px;
+  width: 250px;
   height: 50px;
-  margin-top: 15px;
+  margin-top: 14px;
 }
 
-#pricing-heading3 p{
-  color:white;
-  margin-bottom: 15px;
+#pricing-heading3 p {
+  color: white;
+  margin-bottom: 10px;
+  padding-left: 15px;
 }
 
-
-#checkbox-container{
+#checkbox-container {
   width: 60px;
   height: 30px;
-  background-color:#424957;
+  background-color: #424957;
   border-radius: 20px;
 }
 
-#checkbox-circle{
-  width:35px;
+#checkbox-circle {
+  width: 35px;
   border-radius: 50%;
   height: 30px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
-#black-friday{
+#black-friday {
   background-color: var(--primary-color);
+  border-radius: 30px;
+  font-size: 10px;
+  width: 100px;
+  height: 30px;
+  border: none;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-left: 55px;
+}
+#limited-deal {
+  color: #9d9ea0;
+  margin-top: 10px;
+}
+#free-trial {
+  color: #9d9ea0 !important;
+  margin-top: 9px;
+  margin-left: 20px;
+}
+#no-ads-hulu {
+  margin-left: 40px !important;
+  font-weight: 800;
 }
 
+#feature1 {
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  padding: 30px 0px 30px 10px;
+  border-bottom: 1px solid white;
+}
+#feature1-subsection1 p {
+  font-size: 12px;
+}
+
+#feature1-subsection2 p {
+  margin-left: 200px;
+}
+
+#feature1-subsection3 p {
+  margin-right: 100px;
+}
 
 /*Footer*/
 
-#footer-container{
+#footer-container {
   height: 70vh;
   width: 100vw;
-  background-color: #E8EAED;
+  background-color: #e8eaed;
 }
 
-#footer-top-section{
-  border:none;
+#footer-top-section {
+  border: none;
   padding: 25px 50px;
   display: flex;
   justify-content: space-evenly;
 }
 
-.section-link{
-  color:#5C6577;
+.section-link {
+  color: #5c6577;
   margin: 10px;
   font-size: 13px;
   white-space: pre;
 }
 
-.footer-active{
-  color:black;
+.footer-active {
+  color: black;
   font-weight: 550px;
 }
 
-#section-1,#section-2,#section-3,#section-4,#section-5,#section-6{
-   margin-right:20px;
+#section-1,
+#section-2,
+#section-3,
+#section-4,
+#section-5,
+#section-6 {
+  margin-right: 20px;
 }
 
-#section-2,#section-3,#section-4{
+#section-2,
+#section-3,
+#section-4 {
   margin-top: 26px;
 }
 
-#footer-line{
+#footer-line {
   margin-left: 110px;
   width: 1150px;
   color: rgb(230, 230, 230);
 }
 
-#footer-social{
-  padding-left: 115px; 
+#footer-social {
+  padding-left: 115px;
   margin-top: 40px;
 }
-#footer-social img{
+#footer-social img {
   margin-right: 30px;
 }
 
-#footer-links{
+#footer-links {
   display: flex;
   margin-left: 110px;
   margin-top: 30px;
 }
 
-#footer-links p{
+#footer-links p {
   margin-right: 30px;
   font-size: 12px;
-  color:#5C6577;
+  color: #5c6577;
 }
 
-#sitemap{
+#sitemap {
   margin-left: 110px;
- margin-right: 20px;
+  margin-right: 20px;
   font-size: 12px;
-  color:#5C6577;
+  color: #5c6577;
   margin-top: 10px;
 }
